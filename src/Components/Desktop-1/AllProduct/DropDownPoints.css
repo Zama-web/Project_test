@@ -6,4 +6,6 @@
 
 .new_points p {
     color: white;
+    cursor: pointer;
+
 }
