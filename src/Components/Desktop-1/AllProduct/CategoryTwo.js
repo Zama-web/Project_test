@@ -1,5 +1,6 @@
 import React from 'react';
 import './Category.css'
+import DropDownPoints from './DropDownPoints';
 
 
 
@@ -17,14 +18,24 @@ function CategoryTwo () {
             </div>
             <div className='points'>
                 <ul>
-                    <li>- Эмали</li>   
                     <li>- Водоэмульсионные краски</li>   
                     <li>- Масляные краски</li> 
                     <li>- Грунт по металлу</li>  
-                    <li>- Краска по ржавчине</li>  
                     <li>- Краска резиновая</li>
-                    <li>- Декоротивные штукатурки</li>
-                    <li>- Гидроизоляция</li>
+                    <li>- Краска по ржавчине</li>  
+                    <li>- Эмали</li>   
+
+                    <DropDownPoints>
+                        <ul>
+                            <li>- Декоротивные штукатурки</li>
+                            <li>- Гидроизоляция</li>
+                            <li>- Подразделы</li>
+                            <li>- Подразделы</li>
+                            <li>- Подразделы</li>
+                            <li>- Подразделы</li>
+                        </ul>
+                    </DropDownPoints>
+
                 </ul>
             </div>
         </div>

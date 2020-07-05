@@ -1,5 +1,6 @@
 import React from 'react';
 import './Category.css'
+import DropDownPoints from './DropDownPoints';
 
 
 function CategoryFour() {
@@ -20,7 +21,17 @@ function CategoryFour() {
                     <li>- Пенопласт</li>   
                     <li>- Подложка ППЭ</li>  
                     <li>- Геоткань</li>  
-                    <li>- Мембрана</li>  
+                    <li>- Мембрана</li>
+
+                    <DropDownPoints>
+                        <ul>
+                            <li>- Подразделы</li>
+                            <li>- Подразделы</li>
+                            <li>- Подразделы</li>
+                            <li>- Подразделы</li>
+                        </ul>
+                    </DropDownPoints>
+
                 </ul>
             </div>
         </div>

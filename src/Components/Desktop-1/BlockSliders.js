@@ -11,9 +11,11 @@ function BlockSliders() {
     return(
 
         <div className='home_page_sliders'>
-            <div className='arrow_left'> &#60; </div>
+            <div className='arrow_left'> &#8592; </div>
+            <div>
             <img src="./ImagePage1/slider_knauf_1.jpg" alt="knauf" />
-            <div className='arrow_right'> &#62;  </div>
+            </div>
+            <div className='arrow_right'> &#8594; </div>
 
         </div>
     )

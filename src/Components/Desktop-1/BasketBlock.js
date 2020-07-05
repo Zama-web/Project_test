@@ -8,7 +8,7 @@ function BasketBlock() {
 
     return(
         <div className='basket'>
-            <img src="./ImagePage1/s1200.png" alt="" />
+            <img src="./ImagePage1/ic_basket.png" alt="" />
             <span>
             <span>0  </span>
             <span>Товаров</span>

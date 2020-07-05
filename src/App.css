@@ -2,7 +2,9 @@
   padding: 0;
   margin: 0;
 }
-
+.App{
+  background-image: url('https://www.tokkoro.com/picsup/1171697-wall.jpg');
+}
 .App-header {
   position: sticky;
   top: 0;
@@ -11,12 +13,13 @@
   align-items: center;
   font-size: 15px;
   color: yellow;
-  width: 100%;
+  height: 50px;
+  width: 90%;
+  margin-left: 5%;
 
 }
 
 .App-header p {
-  width: 25%;
   cursor: pointer;
   padding: 5px;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Category.css'
+import DropDownPoints from './DropDownPoints';
 
 
 function CategoryOne() {
@@ -20,8 +21,18 @@ function CategoryOne() {
                     <li>- Комплектующие для монтажа профиля</li> 
                     <li>- Штукатурки</li>  
                     <li>- Шпатлевки</li>  
-                    <li>- Гидроизоляции</li>  
+                    <li>- Гидроизоляции</li> 
+                    <DropDownPoints>
+                        <ul>
+                            <li>- Подразделы</li>
+                            <li>- Подразделы</li>
+                            <li>- Подразделы</li>
+                            <li>- Подразделы</li>
+                        </ul>
+                    </DropDownPoints>
+
                 </ul>
+
             </div>
         </div>
     )
