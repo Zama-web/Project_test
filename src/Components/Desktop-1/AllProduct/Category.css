@@ -5,7 +5,7 @@
     margin-top: 5px;
     margin-left: 50px;
     border-bottom: 1px solid grey;
-    color: yellow;
+    color: white;
 
 }
 @media(max-width: 760px) {
@@ -19,7 +19,7 @@
     text-decoration: underline;
     text-shadow: 0 0 2px;
     cursor: pointer;
-    color: white;
+    color: darkgray;
 }
 .category img {
     width: 400px;
@@ -66,11 +66,11 @@
     text-decoration: underline;
     font-weight: 400;
     font-size: 18px;
-    color: yellow;
+    color: white;
 }
 .points li:hover{
     text-shadow: 0 0 2px ;
-    color: white;
+    color: darkgray;
     cursor: pointer;
 }
 .points li+li{

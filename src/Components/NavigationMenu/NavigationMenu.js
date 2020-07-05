@@ -4,8 +4,6 @@ import './NavigationMenu.css';
 
 function NavigationMenu() {
 
-    
-
     return(
         <div className='nav_menu' onClick={()=>console.log('***')} >
             <div>О Нас</div>
@@ -15,8 +13,8 @@ function NavigationMenu() {
             <div>% Акции</div>
             <div>Вакансии</div>
             <span>
-                <a href="#" style={{color: 'yellow'}} >Вход /</a>
-                <a href="#" style={{color: 'yellow'}} > Регистрация</a>
+                <a href="#" style={{color: 'white'}} >Вход /</a>
+                <a href="#" style={{color: 'white'}} > Регистрация</a>
             </span>
             <div></div>
         </div>
