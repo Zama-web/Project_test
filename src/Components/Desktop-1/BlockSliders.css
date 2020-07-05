@@ -1,0 +1,31 @@
+.home_page_sliders{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 98%;
+    margin-left: 11px;
+}
+
+.arrow_left, .arrow_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 350px;
+    font-weight: bold;
+    font-size: 80px;
+    color: #4a69bd;
+    background-color: #341f97;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+}
+
+.arrow_right:hover{
+    box-shadow: 0 0 30px #192a56;
+    background-color: #192a56;
+}
+.arrow_left:hover{
+    box-shadow: 10px 10px 40px #192a56;
+    background-color: #192a56;
+}

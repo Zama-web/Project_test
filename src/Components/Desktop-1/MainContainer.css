@@ -1,0 +1,9 @@
+.all_content {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin: 10px 0 10px 5%;
+    width: 90%;
+    box-shadow: 0 0 2px black;
+    background-color: #f7f1e3;
+}

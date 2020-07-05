@@ -1,24 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import NavigationMenu from './Components/NavigationMenu/NavigationMenu';
+import BlockSliders from './Components/Desktop-1/BlockSliders';
+import MainContainer from './Components/Desktop-1/MainСontainer';
+import InfoBlock from './Components/Desktop-1/InfoBlock';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+        <NavigationMenu/>
+
       </header>
+        <InfoBlock/>
+        <BlockSliders/>
+        <MainContainer/>
+
+
     </div>
   );
 }

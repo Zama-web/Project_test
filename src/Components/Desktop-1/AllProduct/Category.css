@@ -1,0 +1,84 @@
+.category {
+    display: flex;
+    width: auto;
+    height: auto;
+    padding-left: 5px;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-bottom: 1px solid #b2bec3;
+    color: #333;
+
+}
+@media(max-width: 760px) {
+    .category {
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.category h3:hover{
+    text-decoration: underline;
+    text-shadow: 0 0 2px;
+    cursor: pointer;
+    color: grey;
+}
+.category img {
+    width: 400px;
+    height: 200px;
+}
+.category img:hover{
+    cursor: cell;
+}
+@media(max-width: 760px) {
+    .category img{
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+.line {
+    width: 150px;
+    margin: 10px 0;
+    border: 2px solid grey;
+
+}
+.points {
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+}
+@media(max-width: 760px) {
+    .points {
+        width: 300px;
+        display: none;
+    }
+}
+
+.points li {
+    list-style: none;
+    cursor: pointer;
+    text-decoration: underline;
+    overflow: hidden;
+    font-weight: 500;
+    color: #333;
+}
+.points li:hover{
+    text-shadow: 0 0 2px ;
+    color: grey;
+    cursor: pointer;
+}
+.points li+li{
+    margin-top: 10px;
+}
+
+@media (max-width: 375px){
+    .points li {
+        width: 100%;
+    }
+}

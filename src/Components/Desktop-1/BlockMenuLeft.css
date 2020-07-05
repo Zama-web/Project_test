@@ -1,0 +1,20 @@
+.home_page_menu_left {
+    margin: 40px 0 0 10px;
+    border-left: 1px solid #b2bec3;
+    width: 20%;
+    height: auto;
+    padding-left: 5px;
+}
+
+.home_page_menu_left li{
+    list-style: none;
+    margin-bottom: 5px;
+    cursor: pointer;
+    color: #333;
+    font-weight: 500;
+}
+.home_page_menu_left li:hover{
+    text-decoration: underline;
+    text-shadow: 0 0 2px ;
+    color: grey;
+}
