@@ -2,10 +2,12 @@
     display: flex;
     width: 90%;
     margin-left: 5%;
+    margin-top: 10px;
     position: relative;
 }
 .home_page_sliders img{
     width: 1224px;
+    height: 500px;
 }
 @media (max-width: 860px) {
     .home_page_sliders img{
@@ -19,7 +21,7 @@
     align-items: center;
     font-weight: bold;
     font-size: 40px;
-    background-color: #341f97;
+    background-color: #B53471;
     cursor: pointer;
     transition: box-shadow 0.5s;
     position: absolute;
@@ -43,11 +45,11 @@
 
 .arrow_right:hover{
     box-shadow: 0 0 30px black;
-    background-color: #192a56;
+    background-color: #6F1E51;
     opacity: .7;
 }
 .arrow_left:hover{
     box-shadow: 0 0 30px black;
-    background-color: #192a56;
+    background-color: #6F1E51;
     opacity: .7;
 }

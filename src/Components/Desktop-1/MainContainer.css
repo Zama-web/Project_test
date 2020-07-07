@@ -1,8 +1,8 @@
 .all_content {
     display: flex;
     flex-direction: row;
-    padding: 5px;
-    margin: 10px 0 10px 5%;
+    margin: 5px 0 10px 5%;
     width: 90%;
-    box-shadow: 0 0 2px white;
+    padding: 5px;
+    background-color: #227093;
 }

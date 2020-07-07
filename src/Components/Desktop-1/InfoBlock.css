@@ -3,35 +3,29 @@
     align-items: center;
     width: 90%;
     margin-left: 5%;
-    height: 130px;
-    box-shadow: 0 0 2px black;
+    margin-top: 10px;
+    padding: 5px;
+    height: 90px;
     color: white;
+    background-color: #227093;
 }
 .info_block img{
-    margin-right: 20px;
-    height: 120px;
-    border-right: 1px solid #2e2f30;
+    margin-right: 30px;
+    height: 90px;
     cursor: pointer;
-}
-.info_block p{
-    width: 320px;
-    margin: 10px 0;
-
 }
 
 .phone{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    font-size: 18px;
     margin: 20px 0 0 50px;
-    padding: 10px;
     height: 100%;
     width: 350px;
 }
+
 #t{
     font-size: 12px;
-    margin-top: 5px;
     color: white;
 }
 
@@ -58,7 +52,6 @@
     width: 300px;
     height: 100%;
     margin-left: 50px;
-    padding: 10px;
     cursor: pointer;
 }
 @media (max-width: 770px) {

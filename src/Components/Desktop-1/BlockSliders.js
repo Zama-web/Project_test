@@ -13,7 +13,7 @@ function BlockSliders() {
         <div className='home_page_sliders'>
             <div className='arrow_left'> &#8592; </div>
             <div>
-            <img src="./ImagePage1/slider_knauf_1.jpg" alt="knauf" />
+            <img src="./ImagePage1/tikkurila.png" alt="knauf" />
             </div>
             <div className='arrow_right'> &#8594; </div>
 

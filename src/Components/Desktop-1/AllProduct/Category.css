@@ -19,7 +19,7 @@
     text-decoration: underline;
     text-shadow: 0 0 2px;
     cursor: pointer;
-    color: darkgray;
+    color: #34ace0;
 }
 .category img {
     width: 400px;
@@ -70,7 +70,7 @@
 }
 .points li:hover{
     text-shadow: 0 0 2px ;
-    color: darkgray;
+    color: #34ace0;
     cursor: pointer;
 }
 .points li+li{

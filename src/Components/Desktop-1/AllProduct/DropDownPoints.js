@@ -24,13 +24,13 @@ class DropDownPoints extends Component {
 
         return(
             <div className='new_points'>
-                <p onClick={()=>this.toggle()}>
-                   +{this.count} подразделов
-
-                </p>
+                
                 <div className='pointsList ' style={{height: listHeght}} >
                     {this.props.children}
                 </div>
+                <p onClick={()=>this.toggle()}>
+                   +{this.count} подразделов
+                </p>
             </div>
         )
     

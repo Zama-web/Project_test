@@ -1,12 +1,19 @@
 .nav_menu{
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    background-color: #08323ad8;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px;
+    font-size: 15px;
+    color: white;
+    height: 40px;
     width: 90%;
     margin-left: 5%;
+    padding: 5px;
     cursor: pointer;
-    transition: box-shadow 0.2s;
+    transition: text-shadow 0.3s;
 }
 .nav_menu div+div{
     margin-left: 20px;

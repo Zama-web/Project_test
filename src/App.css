@@ -3,25 +3,6 @@
   margin: 0;
 }
 .App{
-  background-image: url('https://www.tokkoro.com/picsup/1171697-wall.jpg');
-}
-.App-header {
-  position: sticky;
-  z-index: 1000;
-  top: 0;
-  background-color: #341f97;
-  display: flex;
-  align-items: center;
-  font-size: 15px;
-  color: white;
-  height: 50px;
-  width: 90%;
-  margin-left: 5%;
-
-}
-
-.App-header p {
-  cursor: pointer;
-  padding: 5px;
+  background-color: #34ace0;
 }
 

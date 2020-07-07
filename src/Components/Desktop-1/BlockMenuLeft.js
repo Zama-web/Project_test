@@ -33,6 +33,7 @@ function BlockMenuLeft() {
                         <li> {arrow} &#160; Сантехника         </li>       
                     </ul>
                 </DropDownPoints>
+                
             </ul>
         </div>
     )
