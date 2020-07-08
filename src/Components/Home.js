@@ -3,6 +3,7 @@ import NavigationMenu from './NavigationMenu/NavigationMenu';
 import InfoBlock from './Desktop-1/InfoBlock';
 import BlockSliders from './Desktop-1/BlockSliders';
 import MainContainer from './Desktop-1/MainСontainer';
+import FooterContainer from './Desktop-1/FooterContainer';
 
 
 class Home extends Component{
@@ -14,6 +15,8 @@ class Home extends Component{
                 <InfoBlock/>
                 <BlockSliders/>
                 <MainContainer/>
+
+                <FooterContainer/>
 
 
             </div>

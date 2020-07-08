@@ -6,7 +6,7 @@ class Page404 extends Component{
     render(){
         return(
             <div>
-                <h1>Такой страницы нет</h1>
+                <h2>Что то пошло не так :-(</h2>
             </div>
         )
     }
