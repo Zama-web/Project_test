@@ -20,26 +20,24 @@ class ModelContainer extends Component {
     
     render() {
         
-        console.log('__', this.state.openModel);
-
-        const listHeght = (this.state.openModel) ? 90+'vh' : '0vh'
-        const listWidth = (this.state.openModel) ? 90+'%' : '0%'
+        const listHeght = (this.state.openModel) ? 100+'vh' : '0vh'
+        const listWidth = (this.state.openModel) ? 100+'%' : '0%'
         
         return(
-            <div className='model'>
+            <div className='model_block'>
                 <p onClick={()=>this.toggle()}>
                     {this.props.children}
                 </p>
-                <div className='modelWindow' style={{
-                    width: listWidth,
-                    height: listHeght
-                    }}>
 
-                        
-                </div>
+                    <div className='modelWindow' 
+                     style={{
+                        width: listWidth,
+                        height: listHeght,
+                        opacity: '.9'}}>
+
+                    </div>
             </div>
         )
-    
     }
 }
 

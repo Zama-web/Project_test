@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import BlockSliders from './Desktop-1/BlockSliders';
+import NavigationMenu from './NavigationMenu/NavigationMenu';
+import InfoBlock from './Desktop-1/InfoBlock';
+import Contacts from './Desktop-2/Contacts';
 
 
 class Main extends Component{
@@ -7,7 +9,9 @@ class Main extends Component{
     render(){
         return(
             <div>
-                <BlockSliders/>
+                <NavigationMenu/>
+                <InfoBlock/>
+                <Contacts/>
             </div>
         )
     }

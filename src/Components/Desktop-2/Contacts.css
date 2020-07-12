@@ -1,0 +1,13 @@
+.d_2_contact{
+    display: flex;
+    justify-content: center;
+    color: yellow;
+    width: 90%;
+    height: 90vh;
+}
+
+.maps {
+    margin-top: 20px;
+    width: 400px;
+    height: 400px;
+}
