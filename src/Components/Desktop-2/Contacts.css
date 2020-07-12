@@ -1,13 +1,36 @@
 .d_2_contact{
     display: flex;
-    justify-content: center;
-    color: yellow;
+    justify-content: space-between;
     width: 90%;
-    height: 90vh;
+    margin-left: 5%;
+    color: white;
 }
+h2 {
+    margin-bottom: 20px;
+}
+label {
+    display: inline-block;
+    width: 150px;
+    font-size: 18px;
+}
+input {
+    width: 200px;
+    height: 30px;
+    border: 0;
+}
+.d_2_map_img {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
 
+}
 .maps {
-    margin-top: 20px;
-    width: 400px;
+    margin: 20px 0 20px 0;
+    width: 500px;
     height: 400px;
+}
+.d_2_map_img img{
+    width: 505px;
+    height: 300px;
+
 }

@@ -18,7 +18,9 @@ function NavigationMenu() {
                 <a href="/consultants">Консультанты</a>
             </div>
 
-            <div>Доставка</div>
+            <div>
+                <a href="/delivery">Доставка</a>
+            </div>
             <div>% Акции</div>
             <div>Вакансии</div>
 

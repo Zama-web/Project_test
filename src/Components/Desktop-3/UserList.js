@@ -5,10 +5,11 @@ import UserContainer from './UserContainer';
 import NavigationMenu from '../NavigationMenu/NavigationMenu';
 import InfoBlock from '../Desktop-1/InfoBlock';
 import UsersImage from './UsersImage';
+import FooterContainer from '../Desktop-1/FooterContainer';
 
 
- class UserList extends Component {
-    constructor(){
+class UserList extends Component {
+    constructor() {
         super();
         this.state = {
             users: []
@@ -17,40 +18,39 @@ import UsersImage from './UsersImage';
     }
 
     runApi() {
-        API.getUsers((result)=>this.setUsers(result.data));
+        API.getUsers((result) => this.setUsers(result.data));
     }
 
     setUsers(users) {
-        this.setState(()=>{
-            return {users}
+        this.setState(() => {
+            return { users }
         });
     }
 
-    render(){
+    render() {
 
-        return(
+        return (
             <div>
-                <NavigationMenu/>
-                <InfoBlock/>
+                <NavigationMenu />
+
+                <InfoBlock />
+
                 <h2>Лучшие консультанты этого проекта </h2>
                 <div className='user_container'>
-                    <UsersImage/>
+                    <UsersImage />
 
                     <div>
-                    <h2>Остальные консультанты проекта</h2>
+                        <h2>Остальные консультанты проекта</h2>
 
-                    {this.state.users.map((user, i)=><UserContainer key={i} user={user} />)}
-                    
+                        {this.state.users.map((user, i) => <UserContainer key={i} user={user} />)}
+
                     </div>
                 </div>
 
-
-
-
+                <FooterContainer />
             </div>
         )
     }
-
 }
 
 export default UserList;

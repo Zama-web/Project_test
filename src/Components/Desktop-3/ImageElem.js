@@ -2,8 +2,6 @@ import React from 'react';
 import './UserContainer.css'
 
 
-
-
 function ImageElem({ item_data }) {
     let { first_name, last_name, email, img } = item_data;
 

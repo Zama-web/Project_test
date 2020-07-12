@@ -79,14 +79,11 @@ function UsersImage() {
 
     ]
 
-    return(
+    return (
         <div>
-            {imageData.map((item, i)=><ImageElem key={i} item_data={item} />)}
+            {imageData.map((item, i) => <ImageElem key={i} item_data={item} />)}
         </div>
     )
-
-    
-    
 }
 
 export default UsersImage;

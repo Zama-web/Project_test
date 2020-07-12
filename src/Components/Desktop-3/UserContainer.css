@@ -13,7 +13,6 @@ h2 {
     padding: 5px;
 }
 
-
 .user_card {
     display: inline-block;
     background-color: darkcyan;
@@ -24,7 +23,7 @@ h2 {
     height: 140px;
     color: white;
 }
-.user_card>a {
+.user_card > a {
     color: white;
 }
 
@@ -37,6 +36,6 @@ h2 {
     width: 200px;
     color: white;
 }
-.user_img img{
+.user_img img {
     align-items: center;
 }
