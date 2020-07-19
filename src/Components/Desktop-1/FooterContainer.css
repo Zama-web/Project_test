@@ -22,14 +22,18 @@
     height: 32px;
     font-size: 20px;
     border: none;
+    border-radius: 5px;
 }
 .footer_one button{
     width: 60px;
     height: 32px;
-    background-color: tomato;
+    background-color: rgb(30, 218, 186);
     font-size: 20px;
     border: none;
     cursor: pointer;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-left: -5px;
 }
 .footer_content {
     margin-top: 10px;

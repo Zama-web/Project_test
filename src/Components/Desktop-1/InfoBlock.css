@@ -1,39 +1,41 @@
-.info_block {
+.info_block_all {
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 90%;
     margin-left: 5%;
     margin-top: 10px;
     padding: 5px;
-    height: 90px;
+    height: 100px;
     color: white;
     background-color: #227093;
 }
-.info_block img{
-    margin-right: 30px;
+.info_block_all img{
+    margin-right: 10px;
     height: 90px;
     cursor: pointer;
 }
 
-.phone{
+.info_block_all div+div{
+    margin-left: 10px;
+}
+
+
+.info_block_B {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    margin: 20px 0 0 50px;
-    height: 100%;
-    width: 350px;
+    align-items: center;
+    width: auto;
+    font-size: 15px;
+    padding: 15px;
 }
 
-#t{
-    font-size: 12px;
-    color: white;
+
+.phone{
+    text-align: end;
+    width: auto;
+    margin-right: 15px;
 }
 
-@media (max-width: 860px) {
-    .info_block p{
-        display: none;
-    }
-}
 @media (max-width: 770px) {
     .info_block img {
         display: none;
@@ -45,15 +47,49 @@
     }
 }
 
+
+.search_elem {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    padding: 5px;
+}
+.search_elem input {
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 16px;
+    border: none;
+}
+
+.search_elem p{
+    background-color: rgb(30, 218, 186);
+    color: rgb(99, 95, 95);
+    margin-left: -5px;
+    width: 40px;
+    text-align: center;
+    font-size: 30px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+}
+
+
 .basket {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    width: 300px;
-    height: 100%;
-    margin-left: 50px;
+    justify-content: center;
+    background-color: initial;
+    margin-left: 100px;
+    width: 250px;
+    height: 80px;
     cursor: pointer;
+    box-shadow: 0 0 10px black;
+    border-radius: 5px;
+
 }
+
 @media (max-width: 770px) {
     .basket{
         width: 200px;
@@ -65,7 +101,7 @@
 .basket img{
     width: 70px;
     height: 50px;
-    background-color: inherit;
+    border-radius: 5px;
 }
 span:hover{
     text-decoration: underline;

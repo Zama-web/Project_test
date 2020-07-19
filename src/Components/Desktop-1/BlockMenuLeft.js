@@ -1,40 +1,94 @@
 import React from 'react';
 import './BlockMenuLeft.css';
 import DropDownPoints from './AllProduct/DropDownPoints';
-
+import BlockMenuLeftList from './BlockMenuLeftList';
 
 function BlockMenuLeft() {
 
     let arrow = `${String.fromCharCode(9658)}`
 
+    const list_item = [
+        {
+            id: 1,
+            category: 'Сухие строительные смеси',
+            completed: false
+        },
+        {
+            id: 2,
+            category: 'Лакокрасочные материалы',
+            completed: false
+        },
+        {
+            id: 3,
+            category: 'Гипсокартонные системы',
+            completed: false
+        },
+        {
+            id: 4,
+            category: 'Изоляционные материалы',
+            completed: false
+        },
+        {
+            id: 5,
+            category: 'Подвесной потолок',
+            completed: false
+        },
+        {
+            id: 6,
+            category: 'Строительная химия',
+            completed: false
+        },
+        {
+            id: 7,
+            category: 'Напольные покрытия',
+            completed: false
+        },
+        {
+            id: 8,
+            category: 'Крепеж',
+            completed: false
+        },
+        {
+            id: 9,
+            category: 'Инструменты',
+            completed: false
+        },
+        {
+            id: 10,
+            category: 'Пиломатериалы',
+            completed: false
+        },
+        {
+            id: 11,
+            category: 'Сетки металические',
+            completed: false
+        },
+    ]
 
-    return(
+    return (
         <div className='home_page_menu_left'>
-            <input type="text" placeholder='Новая категория товара' />
-            <button>Добавить</button>
-            <br/><br/>
-            <ul>
-                <li> {arrow} &#160; Сухие строительные смеси </li>                       
-                <li> {arrow} &#160; Лакокрасочные материалы  </li>                   
-                <li> {arrow} &#160; Гипсокартонные системы   </li>                   
-                <li> {arrow} &#160; Изоляционные материалы   </li>
-                <li> {arrow} &#160; Подвесной потолок        </li>               
-                <li> {arrow} &#160; Строительная химия       </li>               
-                <li> {arrow} &#160; Напольные покрытия       </li>               
-                <li> {arrow} &#160; Крепеж                   </li>   
-                <li> {arrow} &#160; Инструменты              </li>       
-                <li> {arrow} &#160; Пиломатериалы            </li>           
-               
 
-                <DropDownPoints>
-                    <ul className='menu_list'>
-                        <li> {arrow} &#160; Электротовары      </li>           
-                        <li> {arrow} &#160; Металлопрокат      </li>           
-                        <li> {arrow} &#160; Сантехника         </li>       
-                    </ul>
-                </DropDownPoints>
-                
-            </ul>
+            <div>
+                {list_item.map((item, i)=><BlockMenuLeftList key={i} descr={item} />)}
+
+            <DropDownPoints>
+                <ul>
+                    <li> {arrow} &#160; Электротовары      </li>
+                    <li> {arrow} &#160; Металлопрокат      </li>
+                    <li> {arrow} &#160; Сантехника         </li>
+                </ul>
+            </DropDownPoints>
+            </div>
+
+
+            <br /><br />
+
+            <div>
+
+                <input type="text" placeholder='Новая категория' />
+                <button>Добавить</button>
+                <br /><br />
+            </div>
         </div>
     )
 }
