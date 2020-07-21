@@ -69,22 +69,21 @@ function BlockMenuLeft() {
         <div className='home_page_menu_left'>
 
             <div>
-                {list_item.map((item, i)=><BlockMenuLeftList key={i} descr={item} />)}
+                {list_item.map((item, i) => <BlockMenuLeftList key={i} descr={item} />)}
 
-            <DropDownPoints>
-                <ul>
-                    <li> {arrow} &#160; Электротовары      </li>
-                    <li> {arrow} &#160; Металлопрокат      </li>
-                    <li> {arrow} &#160; Сантехника         </li>
-                </ul>
-            </DropDownPoints>
+                <DropDownPoints>
+                    <ul className='new_list_left'>
+                        <li> {arrow} &#160; Электротовары      </li>
+                        <li> {arrow} &#160; Металлопрокат      </li>
+                        <li> {arrow} &#160; Сантехника         </li>
+                    </ul>
+                </DropDownPoints>
             </div>
 
 
             <br /><br />
 
             <div>
-
                 <input type="text" placeholder='Новая категория' />
                 <button>Добавить</button>
                 <br /><br />
