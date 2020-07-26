@@ -4,8 +4,8 @@ import ModelContainer from '../Desktop-1/ModelContainer';
 
 function NavigationMenu() {
 
-    return(
-        <div className='nav_menu' onClick={()=>console.log('***')} >
+    return (
+        <div className='nav_menu' onClick={() => console.log('***')} >
             <div>
                 <a href="/home">О Нас</a>
             </div>
@@ -21,18 +21,23 @@ function NavigationMenu() {
             <div>
                 <a href="/delivery">Доставка</a>
             </div>
-            <div>% Акции</div>
-            <div>Вакансии</div>
+            <div>
+                % Акции
+            </div>
+            <div>
+                
+                Вакансии
+                
+            </div>
 
             <ModelContainer>
 
-               Вход / Регистрация
-
+                Вход / Регистрация
 
             </ModelContainer>
 
         </div>
-        
+
     )
 }
 

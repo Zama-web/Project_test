@@ -6,7 +6,7 @@ function ImageElem({ item_data }) {
     let { first_name, last_name, email, img } = item_data;
 
     return (
-        <div className='user_img'>
+        <div className='user_img' onClick={()=>console.log('****')}>
             <h3>{first_name}</h3>
             <p>{last_name}</p>
             <p>

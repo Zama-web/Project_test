@@ -25,9 +25,9 @@ function CategoryFour() {
 
                     <DropDownPointsAll>
                         <ul>
-                            <li>- Подразделы</li>
-                            <li>- Подразделы</li>
-                            <li>- Подразделы</li>
+                            <li>- Рулонная гидроизоляция</li>
+                            <li>- Шумоизоляция</li>
+                            <li>- Стекловата</li>
                             <li>- Подразделы</li>
                         </ul>
                     </DropDownPointsAll>

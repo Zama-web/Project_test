@@ -35,6 +35,7 @@ h2 {
     box-shadow: 0 0 10px darkblue;
     width: 200px;
     color: white;
+    cursor: pointer;
 }
 .user_img img {
     align-items: center;

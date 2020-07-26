@@ -29,13 +29,14 @@ class ModelContainer extends Component {
                     {this.props.children}
                 </p>
 
-                    <div className='modelWindow' 
+                    <div className='model_window' 
                      style={{
                         width: listWidth,
                         height: listHeght,
                         opacity: '.9'}}>
-
+                        
                     </div>
+                    
             </div>
         )
     }

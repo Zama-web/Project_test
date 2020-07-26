@@ -20,7 +20,7 @@ class BlockMenuLeftList extends Component {
 
 
     render() {
-        
+
         let arrow = `${String.fromCharCode(9658)}`
         let classChange = 'menu_list' + (this.state.completed ? ' completed' : '');
 
@@ -34,7 +34,6 @@ class BlockMenuLeftList extends Component {
                         {arrow} &#160; {this.descr.category}
                     </li>
                 </ul>
-                
 
             </div>
 

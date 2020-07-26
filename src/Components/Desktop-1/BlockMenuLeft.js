@@ -1,11 +1,8 @@
 import React from 'react';
 import './BlockMenuLeft.css';
-import DropDownPointsAll from '../DropDownPoints/DropDownPointsAll';
 import BlockMenuLeftList from './BlockMenuLeftList';
 
 function BlockMenuLeft() {
-
-    let arrow = `${String.fromCharCode(9658)}`
 
     const list_item = [
         {
@@ -63,6 +60,21 @@ function BlockMenuLeft() {
             category: 'Сетки металические',
             completed: false
         },
+        {
+            id: 12,
+            category: 'Электротовары',
+            completed: false
+        },
+        {
+            id: 13,
+            category: 'Металлопрокат',
+            completed: false
+        },
+        {
+            id: 14,
+            category: 'Сантехника',
+            completed: false
+        },
     ]
 
     return (
@@ -70,24 +82,8 @@ function BlockMenuLeft() {
 
             <div>
                 {list_item.map((item, i) => <BlockMenuLeftList key={i} descr={item} />)}
-
-                <DropDownPointsAll>
-                    <ul className='new_list_left'>
-                        <li> {arrow} &#160; Электротовары      </li>
-                        <li> {arrow} &#160; Металлопрокат      </li>
-                        <li> {arrow} &#160; Сантехника         </li>
-                    </ul>
-                </DropDownPointsAll>
             </div>
 
-
-            <br /><br />
-
-            <div>
-                <input type="text" placeholder='Новая категория' />
-                <button>Добавить</button>
-                <br /><br />
-            </div>
         </div>
     )
 }

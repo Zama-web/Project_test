@@ -6,19 +6,17 @@ import MainContainer from './Desktop-1/MainСontainer';
 import FooterContainerAll from './FooterContainer/FooterContainerAll';
 
 
-class Home extends Component{
+class Home extends Component {
 
-    render(){
-        return(
+    render() {
+        return (
             <div>
-                <NavigationMenu/>
-                <InfoBlock/>
-                <BlockSliders/>
-                <MainContainer/>
+                <NavigationMenu />
+                <InfoBlock />
+                <BlockSliders />
+                <MainContainer />
 
-                <FooterContainerAll/>
-
-
+                <FooterContainerAll />
             </div>
         )
     }

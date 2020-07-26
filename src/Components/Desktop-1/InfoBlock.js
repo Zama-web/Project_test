@@ -1,6 +1,6 @@
 import React from "react";
 import "./InfoBlock.css";
-import BasketBlock from "./BasketBlock";
+import BasketBlock from "../BasketBlock";
 
 function getDate() {
   return new Date().toString()
