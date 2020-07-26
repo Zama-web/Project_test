@@ -1,6 +1,6 @@
 import React from 'react';
 import './BlockMenuLeft.css';
-import DropDownPoints from './AllProduct/DropDownPoints';
+import DropDownPointsAll from '../DropDownPoints/DropDownPointsAll';
 import BlockMenuLeftList from './BlockMenuLeftList';
 
 function BlockMenuLeft() {
@@ -71,13 +71,13 @@ function BlockMenuLeft() {
             <div>
                 {list_item.map((item, i) => <BlockMenuLeftList key={i} descr={item} />)}
 
-                <DropDownPoints>
+                <DropDownPointsAll>
                     <ul className='new_list_left'>
                         <li> {arrow} &#160; Электротовары      </li>
                         <li> {arrow} &#160; Металлопрокат      </li>
                         <li> {arrow} &#160; Сантехника         </li>
                     </ul>
-                </DropDownPoints>
+                </DropDownPointsAll>
             </div>
 
 

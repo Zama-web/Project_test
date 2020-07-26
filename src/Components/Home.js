@@ -3,7 +3,7 @@ import NavigationMenu from './NavigationMenu/NavigationMenu';
 import InfoBlock from './Desktop-1/InfoBlock';
 import BlockSliders from './Desktop-1/BlockSliders';
 import MainContainer from './Desktop-1/MainСontainer';
-import FooterContainer from './Desktop-1/FooterContainer';
+import FooterContainerAll from './FooterContainer/FooterContainerAll';
 
 
 class Home extends Component{
@@ -16,7 +16,7 @@ class Home extends Component{
                 <BlockSliders/>
                 <MainContainer/>
 
-                <FooterContainer/>
+                <FooterContainerAll/>
 
 
             </div>

@@ -5,7 +5,7 @@ import UserContainer from './UserContainer';
 import NavigationMenu from '../NavigationMenu/NavigationMenu';
 import InfoBlock from '../Desktop-1/InfoBlock';
 import UsersImage from './UsersImage';
-import FooterContainer from '../Desktop-1/FooterContainer';
+import FooterContainerAll from '../FooterContainer/FooterContainerAll';
 
 
 class UserList extends Component {
@@ -47,7 +47,7 @@ class UserList extends Component {
                     </div>
                 </div>
 
-                <FooterContainer />
+                <FooterContainerAll />
             </div>
         )
     }

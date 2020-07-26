@@ -2,7 +2,7 @@ import React from 'react';
 import './Delivery.css';
 import NavigationMenu from '../NavigationMenu/NavigationMenu';
 import InfoBlock from '../Desktop-1/InfoBlock';
-import FooterContainer from '../Desktop-1/FooterContainer';
+import FooterContainerAll from '../FooterContainer/FooterContainerAll';
 
 function Delivery() {
 
@@ -29,7 +29,7 @@ function Delivery() {
 
         </div>
 
-            <FooterContainer />
+            <FooterContainerAll />
         </div>
     )
 }

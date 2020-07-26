@@ -1,6 +1,6 @@
 import React from 'react';
 import './Contacts.css';
-import FooterContainer from '../Desktop-1/FooterContainer';
+import FooterContainerAll from '../FooterContainer/FooterContainerAll';
 
 function Contacts() {
     let add_1 = 'г. Москва, Путевой пр-т, д. 131, стр.111';
@@ -54,7 +54,8 @@ function Contacts() {
 
                 </div>
             </div>
-            <FooterContainer />
+
+            <FooterContainerAll/>
         </div>
     )
 }
