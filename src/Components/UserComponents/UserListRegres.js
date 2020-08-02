@@ -1,23 +1,25 @@
 import React, { Component } from 'react';
-import API from './JSONplaceholder';
-import './UserContainer.css'
-import UserContainer from './UserContainer';
+import API from './JSONregres';
+import UserElem from './UserElem';
+import './UserElem.css'
 import NavigationMenu from '../NavigationMenu/NavigationMenu';
 import InfoBlock from '../Desktop-1/InfoBlock';
 import FooterContainerAll from '../FooterContainer/FooterContainerAll';
 
 
-class UserList extends Component {
+class UserListRegres extends Component {
+
     constructor() {
         super();
         this.state = {
             users: []
         };
+
         this.runApi();
     }
 
     runApi() {
-        API.getUsers((result) => this.setUsers(result.data));
+        API.getUsers((result) => this.setUsers(result.data.data))
     }
 
     setUsers(users) {
@@ -25,6 +27,8 @@ class UserList extends Component {
             return { users }
         });
     }
+
+
 
     render() {
 
@@ -34,19 +38,19 @@ class UserList extends Component {
 
                 <InfoBlock />
 
-                <h2>Лучшие консультанты этого проекта </h2>
+                <h2>Сотрудники</h2>
+
                 <div className='user_container'>
+                    {this.state.users.map((user, i) => <UserElem key={i} user={user} />)}
 
-                    <div>
-                        {this.state.users.map((user, i) => <UserContainer key={i} user={user} />)}
-
-                    </div>
+                    {this.state.users.map((user, i) => <UserElem key={i} user={user} />)}
                 </div>
 
                 <FooterContainerAll />
+                
             </div>
         )
     }
 }
 
-export default UserList;
+export default UserListRegres;

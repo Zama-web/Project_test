@@ -26,7 +26,7 @@ function NavigationMenu() {
             </div>
             <div>
                 
-                Вакансии
+                <a href="/staff">Сотрудники</a>
                 
             </div>
 
