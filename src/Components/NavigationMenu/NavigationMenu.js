@@ -35,6 +35,7 @@ function NavigationMenu() {
                 Вход / Регистрация
 
             </ModelContainer>
+            
 
         </div>
 

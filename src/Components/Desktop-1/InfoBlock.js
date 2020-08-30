@@ -32,12 +32,12 @@ function InfoBlock() {
           <br />
           <a href="mailto:baizakoff2017@gmail.com">baizakoff2017@gmail</a>
         </div>
-        <div className='search_elem'>
+        {/* <div className='search_elem'>
           <input type="text" placeholder='Поиск товара' />
           <p>
             &#8594;
               </p>
-        </div>
+        </div> */}
 
         <BasketBlock />
       </div>

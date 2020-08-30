@@ -2,26 +2,21 @@
     position: sticky;
     z-index: 1000;
     top: 0;
-    background-color: #08323ad8;
+    background-color: #f1c40f;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 15px;
-    color: white;
     height: 40px;
-    width: 90%;
-    margin-left: 5%;
     padding: 5px;
     cursor: pointer;
-    transition: text-shadow 0.3s;
 }
 .nav_menu div+div{
     margin-left: 20px;
 }
 .nav_menu div{
-    text-shadow: 0 0 5px grey;
-    border-radius: 3px;
+    transition: text-shadow 0.3s;
 }
 .nav_menu div:hover{
-    text-shadow: 2px 2px 3px white;
+    text-shadow: 5px 5px 15px #34495e;
 }

@@ -1,39 +1,27 @@
 .info_block_all {
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 90%;
-    margin-left: 5%;
-    margin-top: 10px;
+    justify-content: space-between;
+    margin-top: 15px;
     padding: 5px;
     height: 100px;
-    color: white;
-    background-color: #227093;
 }
 .info_block_all img{
-    margin-right: 10px;
-    height: 90px;
+    height: 100px;
     cursor: pointer;
 }
 
-.info_block_all div+div{
-    margin-left: 10px;
-}
-
-
 .info_block_B {
     display: flex;
-    align-items: center;
-    width: auto;
-    font-size: 15px;
-    padding: 15px;
+    font-size: 14px;
+    padding: 10px;
 }
 
 
 .phone{
     text-align: end;
     width: auto;
-    margin-right: 15px;
+    margin-left: 150px;
 }
 
 @media (max-width: 770px) {
@@ -46,33 +34,4 @@
 
     }
 }
-
-
-.search_elem {
-    display: flex;
-    justify-content: center;
-    width: auto;
-    padding: 5px;
-}
-.search_elem input {
-    width: 300px;
-    height: 35px;
-    border-radius: 5px;
-    padding: 2px;
-    font-size: 16px;
-    border: none;
-}
-
-.search_elem p{
-    background-color: rgb(30, 218, 186);
-    color: rgb(99, 95, 95);
-    margin-left: -5px;
-    width: 40px;
-    text-align: center;
-    font-size: 30px;
-    border-bottom-right-radius: 5px;
-    border-top-right-radius: 5px;
-    cursor: pointer;
-}
-
 

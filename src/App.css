@@ -3,13 +3,12 @@
   margin: 0;
 }
 .App{
-  background-color: #34ace0;
   height: auto;
-
+  width: 1280px;
+  margin: 0 auto;
+  background-color: white;
 }
 
-a {
-  color: white;
-  text-decoration: underline;
+a{
+  text-decoration: none;
 }
-
