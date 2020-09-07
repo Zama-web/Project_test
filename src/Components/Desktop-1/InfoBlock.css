@@ -4,6 +4,7 @@
     justify-content: space-between;
     margin-top: 15px;
     padding: 5px;
+    border-bottom: 1px solid #7f8c8d;
     height: 100px;
 }
 .info_block_all img{

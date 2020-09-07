@@ -10,8 +10,10 @@ function Delivery() {
     return (
         <div>
             <NavigationMenu />
-
+            
             <InfoBlock />
+            <br/>
+
 
 
         <div className='d_4_delivery'>
@@ -28,7 +30,9 @@ function Delivery() {
             <li>Итоговая сумма будет рассчитана автоматически на сайте при оформлении заказа или менеджером при обработке заказа.</li>
 
         </div>
-
+            <br/>
+            <br/>
+            <br/>
             <FooterContainerAll />
         </div>
     )

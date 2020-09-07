@@ -14,6 +14,7 @@ class Home extends Component {
                 <NavigationMenu />
                 <InfoBlock />
                 {/* <BlockSliders /> */}
+
                 <MainContainer />
 
                 <FooterContainerAll />

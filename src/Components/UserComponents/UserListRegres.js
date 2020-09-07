@@ -33,7 +33,7 @@ class UserListRegres extends Component {
     render() {
 
         return (
-            <div>
+            <div className='user_page'>
                 <NavigationMenu />
 
                 <InfoBlock />
